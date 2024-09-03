@@ -19,7 +19,9 @@ public class App {
 
             int op = leitor.nextInt();
 
-            
+            if (op == 1){
+            System.out.println("Visualizando Filmes de Ação");
+            }
         }
     }
 }
