@@ -27,7 +27,12 @@ public class App {
                 System.out.println("Vendo Filmes de Drama");
             }else if (op == 4){
                 System.out.println("Vendo Filmes de Terror");
+            }else if (op == 5){
+                System.out.println("Vendo Filmes de Terror");
+            }else if (op == 6){
+                System.out.println("Vendo Filmes de Terror");
             }
+            
         }
     }
 }
