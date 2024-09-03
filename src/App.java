@@ -24,7 +24,7 @@ public class App {
                 System.out.println("Vendo Filmes de Ação");
             }else if (op == 2){// Ryan
                 System.out.println("Vendo Filmes de Comédia");
-            }else if (op == 3){// Pietra
+            }else if (op == 3){// Pietra e André
                 System.out.println("Vendo Filmes de Drama");
             }else if (op == 4){// Matheus
                 System.out.println("Vendo Filmes de Terror");
