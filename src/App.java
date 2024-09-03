@@ -25,6 +25,8 @@ public class App {
                 System.out.println("Vendo Filmes de Comédia");
             }else if (op == 3){
                 System.out.println("Vendo Filmes de Drama");
+            }else if (op == 4){
+                System.out.println("Vendo Filmes de Terror");
             }
         }
     }
