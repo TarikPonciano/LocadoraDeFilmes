@@ -19,18 +19,19 @@ public class App {
 
             int op = leitor.nextInt();
 
-            if (op == 1){
+            //Substituir o println pela exibição na tela uma lista de 10 filmes daquele gênero.
+            if (op == 1){// Pedro
                 System.out.println("Vendo Filmes de Ação");
-            }else if (op == 2){
+            }else if (op == 2){// Ryan
                 System.out.println("Vendo Filmes de Comédia");
-            }else if (op == 3){
+            }else if (op == 3){// Pietra
                 System.out.println("Vendo Filmes de Drama");
-            }else if (op == 4){
+            }else if (op == 4){// Matheus
                 System.out.println("Vendo Filmes de Terror");
-            }else if (op == 5){
-                System.out.println("Vendo Filmes de Terror");
-            }else if (op == 6){
-                System.out.println("Vendo Filmes de Terror");
+            }else if (op == 5){// Italo
+                System.out.println("Vendo Filmes de Ficção Cientifica");
+            }else if (op == 6){// Raphael
+                System.out.println("Vendo Filmes Nacionais");
             }
             
         }
