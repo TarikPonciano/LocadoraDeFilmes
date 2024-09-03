@@ -39,7 +39,21 @@ public class App {
                     } 
                 
             }else if (op == 2){// Ryan
-                System.out.println("Vendo Filmes de Comédia");
+                
+               System.out.println("Vendo Filmes de Comédia");
+                                
+                System.out.println("");
+                System.out.println("O todo poderoso");
+                System.out.println("Debi e Loide");
+                System.out.println(" Um espião e meio");
+                System.out.println("Anjos da lei 2");
+                System.out.println("Norbit");
+                System.out.println("As Branquelas");
+                System.out.println("Tom & Jerry: O filme");
+                System.out.println("Deadpool");
+                System.out.println("Todo mundo em panico");
+                System.out.println("Todo mundo em panico 2");
+                
             }else if (op == 3){// Pietra e André
                 System.out.println("Vendo Filmes de Drama");
                 String[] filmesDeDrama = {
