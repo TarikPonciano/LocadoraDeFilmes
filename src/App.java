@@ -42,6 +42,22 @@ public class App {
                 System.out.println("Vendo Filmes de Comédia");
             }else if (op == 3){// Pietra e André
                 System.out.println("Vendo Filmes de Drama");
+                String[] filmesDeDrama = {
+                    "O Poderoso Chefão",
+                    "Um Sonho de Liberdade",
+                    "Forrest Gump",
+                    "A Lista de Schindler",
+                    "Cidadão Kane",
+                    "O Silêncio dos Inocentes",
+                    "A Rede Social",
+                    "A Forma da Água",
+                    "Manchester à Beira-Mar",
+                    "O Pianista"
+                };
+                System.out.println("Lista de Filmes de Drama:");
+                for (int i = 0; i < filmesDeDrama.length; i++) {
+                    System.out.println((i + 1) + ". " + filmesDeDrama[i]);
+                    }
             }else if (op == 4){// Matheus
                 System.out.println("Vendo Filmes de Terror");
             }else if (op == 5){// Italo
