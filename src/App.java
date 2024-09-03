@@ -19,7 +19,11 @@ public class App {
 
             int op = leitor.nextInt();
 
-            
+            if (op == 1){
+                System.out.println("Vendo Filmes de Ação");
+            }else if (op == 2){
+                System.out.println("Vendo Filmes de Comédia");
+            }
         }
     }
 }
