@@ -8,6 +8,11 @@ public class App {
         Scanner leitor = new Scanner(System.in);
         List<Filme> filmes = new ArrayList<>();
         filmes.add(new Filme("As Tranças do Rei Careca", "Ficção Científica"));
+        filmes.add(new Filme ("Mad Max: Estrada da Fúria", "Ação" ));
+        filmes.add(new Filme ("Duro de Matar", "Ação" ));
+        filmes.add(new Filme("John Wick", "Ação"));
+        filmes.add(new Filme("O Exterminador do Futuro 2: O Julgamento Final", "Ação"));
+        filmes.add(new Filme("Os Vingadores", "Ação"));
 
 
         while (true){
@@ -28,7 +33,11 @@ public class App {
             //Substituir o println pela exibição na tela uma lista de 10 filmes daquele gênero.
             if (op == 1){// Pedro
                 System.out.println("Vendo Filmes de Ação");
-                
+                for (Filme f : filmes){
+                    if (f.getGenero().equals("Ação")){
+                        System.out.println(f);
+                    }
+                }
                 
             }else if (op == 2){// Ryan
                 
