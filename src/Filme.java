@@ -23,6 +23,8 @@ public class Filme {
         this.genero = genero;
     }
 
-    
+    public String toString(){
+        return getNome() + " " + getGenero();
+    }
     
 }
