@@ -51,7 +51,7 @@ public class App {
                 
                System.out.println("Vendo Filmes de Comédia");
                for (Filme f : filmes){
-                if (f.getGenero().equals("Ficção Comédia")){
+                if (f.getGenero().equals("Comédia")){
                     System.out.println(f);
                 }
             }
