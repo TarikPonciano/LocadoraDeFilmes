@@ -8,6 +8,11 @@ public class App {
         Scanner leitor = new Scanner(System.in);
         List<Filme> filmes = new ArrayList<>();
         filmes.add(new Filme("As Tranças do Rei Careca", "Ficção Científica"));
+        filmes.add(new Filme("Star Wars", "Ficção Científica"));
+        filmes.add(new Filme("Star Trek", "Ficção Científica"));
+        filmes.add(new Filme("No Limite do Amanhã", "Ficção Científica"));
+        filmes.add(new Filme("Interstellar", "Ficção Científica"));
+        
         filmes.add(new Filme("A Vida é Bela", "Comédia"));
         filmes.add(new Filme("Os Caça-Fantasmas", "Comédia"));
         filmes.add(new Filme("Superbad - É Hoje", "Comédia"));
