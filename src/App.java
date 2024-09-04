@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner leitor = new Scanner(System.in);
         List<Filme> filmes = new ArrayList<>();
-        filmes.add(new Filme("As Tranças do Rei Careca", "Drama"));
+        filmes.add(new Filme("As Tranças do Rei Careca", "Ficção Científica"));
 
 
         while (true){
@@ -23,7 +23,7 @@ public class App {
             System.out.println("6. Ver Filmes Nacionais");
             System.out.println("");
             System.out.println("Digite a opção:");
-            int op = leitor.nextInt();
+            int op = Integer.parseInt(leitor.nextLine());
 
             //Substituir o println pela exibição na tela uma lista de 10 filmes daquele gênero.
             if (op == 1){// Pedro
@@ -52,6 +52,8 @@ public class App {
             }else if (op == 6){// Raphael
                 System.out.println("Vendo Filmes Nacionais");
             }
+
+            leitor.nextLine();
             
         }
     }

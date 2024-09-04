@@ -24,7 +24,7 @@ public class Filme {
     }
 
     public String toString(){
-        return getNome() + " " + getGenero();
+        return getNome() + " - " + getGenero();
     }
     
 }
