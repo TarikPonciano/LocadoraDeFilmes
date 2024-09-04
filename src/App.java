@@ -74,6 +74,16 @@ public class App {
                     }
             }else if (op == 4){// Matheus
                 System.out.println("Vendo Filmes de Terror");
+                System.out.println("Corra");
+                System.out.println("Exorcista");
+                System.out.println("A Coisa");
+                System.out.println("Annabelle");
+                System.out.println("OS outros");
+                System.out.println("Nós");
+                System.out.println("REC");
+                System.out.println("Não Olhe");
+                System.out.println("A entidade");
+                System.out.println("Panico");
             }else if (op == 5){// Italo
                 System.out.println("Vendo Filmes de Ficção Cientifica");
             }else if (op == 6){// Raphael
