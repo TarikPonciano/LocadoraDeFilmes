@@ -8,6 +8,23 @@ public class App {
         Scanner leitor = new Scanner(System.in);
         List<Filme> filmes = new ArrayList<>();
         filmes.add(new Filme("As Tranças do Rei Careca", "Ficção Científica"));
+        filmes.add(new Filme("A Vida é Bela", "Comédia"));
+        filmes.add(new Filme("Os Caça-Fantasmas", "Comédia"));
+        filmes.add(new Filme("Superbad - É Hoje", "Comédia"));
+        filmes.add(new Filme("O Grande Lebowski", "Comédia"));
+        filmes.add(new Filme("Apertem os Cintos... O Piloto Sumiu!", "Comédia"));
+        filmes.add(new Filme("Se Beber, Não Case!", "Comédia"));
+        filmes.add(new Filme("O Diário de uma Princesa", "Comédia"));
+        filmes.add(new Filme("O Máskara", "Comédia"));
+        filmes.add(new Filme("Anchorman - A Lenda de Ron Burgundy", "Comédia"));
+        filmes.add(new Filme("Trovão Tropical", "Comédia"));
+        filmes.add(new Filme("Uma Noite no Museu", "Comédia"));
+        filmes.add(new Filme("Como Perder um Homem em 10 Dias", "Comédia"));
+        filmes.add(new Filme("A Morte lhe Cai Bem", "Comédia"));
+        filmes.add(new Filme("O Pai da Noiva", "Comédia"));
+        filmes.add(new Filme("Os Embalos de Sábado à Noite", "Comédia"));   
+
+
 
 
         while (true){
@@ -33,7 +50,11 @@ public class App {
             }else if (op == 2){// Ryan
                 
                System.out.println("Vendo Filmes de Comédia");
-                                
+               for (Filme f : filmes){
+                if (f.getGenero().equals("Ficção Comédia")){
+                    System.out.println(f);
+                }
+            }
             
                 
             }else if (op == 3){// Pietra e André
